@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "b91f2ca5-ab85-41ed-91c6-3e4a22aeb592",
+		"name": "Spring Config",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "26517749",
+		"_collection_link": "https://gold-spaceship-892759.postman.co/workspace/Employee-Application~838bc388-48c9-421b-adf9-40f7d7198d19/collection/26517749-b91f2ca5-ab85-41ed-91c6-3e4a22aeb592?action=share&source=collection_link&creator=26517749"
+	},
+	"item": [
+		{
+			"name": "Local",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8888/spring-config-server/local"
+			},
+			"response": []
+		},
+		{
+			"name": "Prod",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8888/spring-config-server/prod"
+			},
+			"response": []
+		},
+		{
+			"name": "Dev",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8888/spring-config-server/dev"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/test"
+			},
+			"response": []
+		},
+		{
+			"name": "refresh",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "http://localhost:8080/actuator/refresh"
+			},
+			"response": []
+		}
+	]
+}
