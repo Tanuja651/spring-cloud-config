@@ -12,3 +12,20 @@ spring:
         native:
           search-locations:
             - file:///C:/Users/tanuja.sirugudi/Desktop/bounteous_integration/spring-cloud-config/configs-location
+
+
+# server:
+#   port: 8888
+
+# spring:
+#   profiles:
+#     active: git
+#   application:
+#     name: spring-config-server
+#   cloud:
+#     config:
+#       server:
+#         git:
+#           uri: https://github.com/Tanuja651/spring-cloud-config.git
+#           search-paths: configs-location
+#           label: main
